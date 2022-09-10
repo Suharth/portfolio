@@ -8,15 +8,53 @@ table, th, td {
     border-collapse: collapse;
   }
 
-nav{
+.header{
     background-color: black;
     color: white;
+    margin: 0%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.header-name{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: medium;
+    letter-spacing: 3px;
+    color: white;
+}
+
+.header-links{
+    display: flex;
+    gap: 18px;
 }
 
 h2{
     color: blue;
+    text-decoration: underline;
 }
 
-.header{
-    background-color:blanchedalmond;
+.section-1{
+    background-image: url(img/pexels-sasha-martynov-1260727.jpg);
+    background-size: cover;
+}
+
+body{
+    padding:0;
+    margin:0;
+    box-sizing :border-box;
+    background: #FAF8E8;
+}
+
+#skills ul li{
+    color: #0000FF;
+}
+
+#skills ol li{
+    color: #FF0000;
+}
+
+a:hover{
+    color: #fff;
 }
